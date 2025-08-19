@@ -38,6 +38,10 @@ export default defineConfig({
 					autogenerate: { directory: 'developer' },
 				},
 				{
+					label: 'Deployment',
+					autogenerate: { directory: 'deployment' },
+				},
+				{
 					label: 'Prompt Caching',
 					autogenerate: { directory: 'prompt-caching' },
 				},
